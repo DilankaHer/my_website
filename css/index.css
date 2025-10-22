@@ -1,0 +1,26 @@
+.htmx-indicator {
+    opacity:0;
+    transition: opacity 500ms ease-in;
+}
+.htmx-request .htmx-indicator{
+    opacity:1
+}
+.htmx-request.htmx-indicator{
+    opacity:1
+}
+
+.contact.htmx-swapping {
+    opacity:0;
+    transition: opacity 500ms ease-in;
+}
+
+.nav-link {
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+}
+.nav-link.active {
+    color: #2563eb; /* Tailwind blue-600 */
+    border-bottom-color: #2563eb;
+    font-weight: 600;
+}
